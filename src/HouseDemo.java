@@ -1,15 +1,15 @@
 public class HouseDemo {
     public static void main(String[] args) {
         House myHouse = new House();
-        House yourHouse = new House();
+        House yourHouse = new House(3,10,"Blue");
 
         myHouse.setNumStories(2);
         myHouse.setNumWindows(6);
         myHouse.setColor("red");
 
-        yourHouse.setNumStories(3);
-        yourHouse.setNumWindows(10);
-        yourHouse.setColor("Blue");
+//        yourHouse.setNumStories(3);
+//        yourHouse.setNumWindows(10);
+//        yourHouse.setColor("Blue");
 
         System.out.println("My house is " + myHouse.getColor() +
                 " and has " + myHouse.getNumStories() + " stories and " +
