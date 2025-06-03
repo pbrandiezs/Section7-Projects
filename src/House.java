@@ -8,7 +8,7 @@ public class House {
         numStories = 1;
         numWindows = 4;
         color = "gray";
-    } //ent ctor
+    } //end ctor
 
     //parameterized ctor
     public House(int numStories, int numWindows, String color){
