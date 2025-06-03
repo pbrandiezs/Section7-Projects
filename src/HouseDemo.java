@@ -11,14 +11,14 @@ public class HouseDemo {
 //        yourHouse.setNumWindows(10);
 //        yourHouse.setColor("Blue");
 
-        System.out.println("My house is " + myHouse.getColor() +
-                " and has " + myHouse.getNumStories() + " stories and " +
-                myHouse.getNumWindows() + " windows.");
-
+        printHouseData(myHouse);
         System.out.println();
+        printHouseData(yourHouse);
+    }
 
-        System.out.println("Your house is " + yourHouse.getColor() +
-                " and has " + yourHouse.getNumStories() + " stories and " +
-                yourHouse.getNumWindows() + " windows.");
+    public static void printHouseData(House house) {
+        System.out.println("Your house is " + house.getColor() +
+                " and has " + house.getNumStories() + " stories and " +
+                house.getNumWindows() + " windows.");
     }
 }
